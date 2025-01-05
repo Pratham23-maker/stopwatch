@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch App</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+    <link  href='https://fonts.googleapis.com/css?family=vollkorn'rel='stylesheet'text='text/css'>
+</head>
+<body>
+ <!--title  -->
+ <div class="container-fluid">
+        <div id="header">Stopwatch  </div>
+    
+     <!-- lap time  -->
+     <div id="lap">
+         <span id="lapminute">00</span>:
+         <span id="lapsecond">00</span>:
+         <span id="lapcentisecond">00</span>
+     </div>
+     <!-- time -->
+       <div id="time">
+         <span id="timeminute">00</span>:
+         <span id="timesecond">00</span>:
+         <span id="timecentisecond">00</span>
+       </div>
+     <!-- control -->
+     <div  id=" controlscontainer" class="row">
+        <div class="col-xs-2  col-xs-offset-4">
+            <div id="startbutton" class="control">
+                Start
+            </div>  
+            <div id="stopbutton" class="control">
+                Stop
+            </div>  
+            <div id="resumebutton" class="control">
+                Resume
+            </div>  
+        </div>
+         <div class="col-xs-2  ">
+            <div id="lapbutton" class="control">
+                Lap
+            </div>  
+            <div id="resetbutton" class="control">
+                Reset
+            </div>  
+         </div>
+      </div>
+      <!-- laps -->
+      <div id="laps">
+
+
+      </div>
+</div>
+
+
+
+ <!--j ourrey   -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="javascrpit.js"></script>
+</body>
+</html>
